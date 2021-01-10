@@ -1,0 +1,60 @@
+.cardsDiv > div:hover {
+  transform: scale(0.98);
+  background-color: rgb(83, 187, 97);
+}
+
+.cardsDiv {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.card-content {
+  display: flex;
+  padding-left: 50px;
+  margin-top: 10px;
+  flex-direction: row;
+
+  width: 100%;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 30%;
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 991px) {
+  .card-image,
+  .card .cardsDiv {
+    padding: 40px;
+  }
+  .text h2 {
+    font-size: 3em;
+  }
+  .text h3 {
+    font-size: 2em;
+  }
+}
+
+.newcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-top: 60px;
+  background: white;
+}
+
+.btn {
+  background-color: transparent;
+  color: black;
+  border: 2px none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
