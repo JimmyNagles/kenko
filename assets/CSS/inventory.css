@@ -28,19 +28,6 @@
   box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media (max-width: 991px) {
-  .card-image,
-  .card .cardsDiv {
-    padding: 40px;
-  }
-  .text h2 {
-    font-size: 3em;
-  }
-  .text h3 {
-    font-size: 2em;
-  }
-}
-
 .newcard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 500px;
@@ -57,4 +44,17 @@
   border: 2px none;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .card-image,
+  .card .cardsDiv {
+    padding: 40px;
+  }
+  .text h2 {
+    font-size: 3em;
+  }
+  .text h3 {
+    font-size: 2em;
+  }
 }
